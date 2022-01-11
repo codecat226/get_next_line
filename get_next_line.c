@@ -6,14 +6,14 @@
 /*   By: rnishimu <rnishimu@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/09 16:40:10 by rnishimu          #+#    #+#             */
-/*   Updated: 2021/08/10 09:40:44 by rnishimu         ###   ########.fr       */
+/*   Updated: 2022/01/11 17:18:45 by rnishimu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-/*find certain char in a string
-*/
+/*find certain char in a string*/
+
 static char	*ft_strchr(const char *s, int c)
 {
 	if (!s)
@@ -28,8 +28,8 @@ static char	*ft_strchr(const char *s, int c)
 }
 
 /*function to make new string joining line and buffer
-*if '\n' is found, stop and return line at '\n' else join until end of buffer
-*/
+if '\n' is found, stop and return line at '\n' else join until end of buffer*/
+
 char	*join(char *s1, char *s2)
 {
 	char	*new;
@@ -80,8 +80,8 @@ char	*cut_newline(char *line, char *buffer)
 	return (line);
 }
 
-/*if read fails and nothing in line. Free line and return false.
-*/
+/*if read fails and nothing in line. Free line and return false.*/
+
 int	read_fail(int r_size, char *line)
 {
 	if (r_size < 1 && (*line == 0))
