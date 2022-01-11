@@ -5,7 +5,7 @@ When the function is called in a loop, the text available on the fd is returned 
 
 ## 42
 
-This is a project which is part of the 42 curriculum. For the full subject pdf click [here] (en-subject.pdf).
+This is a project which is part of the 42 curriculum. For the full subject pdf click [here] (./en-subject.pdf).
 
 ### Getting started
 
